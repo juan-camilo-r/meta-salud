@@ -1,0 +1,267 @@
+.text-info {
+    font-family: sans-serif;
+}
+
+.logo__tecno-salud {
+    width: 150px;
+}
+
+.nav-link {
+    font-family: fantasy;
+}
+
+.text-primary {
+    font-family: fantasy;
+}
+
+.carousel-inner {
+    max-height: 29rem;
+    
+    
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.ht {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rounded {
+    height: auto;
+    width: auto;
+    max-width: 130px;
+    max-height: 130px;
+}
+
+#bg-contacto {
+    position: relative;
+    top: -130;
+}
+
+#seccion-contacto {
+    min-height: 500px;
+    position: relative;
+    background-image: url(wave.svg);
+    background-size: cover;
+}
+
+.hhh {
+    width: 400px;
+    background: #C5DCE8;
+    padding: 30px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    font-family: 'calibri';
+    color: #acacac;
+    box-shadow: 7px 13px 7px #ACE5F7;
+   
+
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.controls {
+    background:#343434 ;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #3B43D9;
+    font-size: 18px;
+    font-family: 'calibri';
+}
+
+#seccion-contacto p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+}   
+
+a {
+    text-decoration: none;
+}
+
+.botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 8px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+/* footer {
+    background: #1b2a4e;
+    min-height: 100px;
+} */
+
+footer p{
+    color: #220909;
+    text-align: center;
+}
+
+#iconos {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+footer {
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(imagenpiedepagina.png);
+    background-size: cover;
+    
+}
+
+.container__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.box__footer .terms {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2 {
+    margin-top: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover {
+    opacity: 0.8;
+}
+
+.box__footer a .fab {
+    font-size: 20px;
+}
+
+.box__copyringt {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyringt p {
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyringt hr {
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .nav-link {
+        font-family: fantasy;
+    }
+
+    #intro, #equipo {
+        width: 90% !important;
+    }
+
+
+    .carousel-inner {
+        max-height: 39rem;
+        
+    }
+
+    #intro{
+        width: 90% !important;
+    }
+
+    .rounded {
+        height: auto;
+        width: auto;
+        max-width: 130px;
+        max-height: 130px;
+    }
+
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #bg-contacto {
+        top: -110;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    #bg-contacto {
+        top: -110;
+    }
+    
+}
+
+/* body {
+    font-size: ´Montserrat´ , sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+} */
